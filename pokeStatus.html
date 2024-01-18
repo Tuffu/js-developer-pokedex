@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/pokeStatus.css">
+</head>
+
+<body>
+    <section class="content-status">
+
+        <ol class="pokemonOrder">
+            <li class="pokemonList">
+                <div class="pokemonType">
+                    <ol class=" pokemonTypeOl">
+                        <h1>Bulbasaur</h1>
+                        <span><b>#001</b></span>
+                        <li class="pokemonTypeLi">Grass</li>
+                        <li class="pokemonTypeLi">Poison</li>
+                    </ol>
+                </div>
+
+                <div class="detalhes">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+                        alt="">
+                </div>
+            </li>
+
+            <ol class="pokemon-nav">
+                <li class="pokemon-nav-li">About </li>
+                <li class="pokemon-nav-li">Base Status </li>
+                <li class="pokemon-nav-li">Evolution </li>
+                <li class="pokemon-nav-li">Moves </li>
+            </ol>
+
+            <div class="pokemon-info">
+                <ol class="pokemon-info-list">
+                    <li class="pokemon-list">Specie: </li>
+                    <li class="pokemon-list">Height: </li>
+                    <li class="pokemon-list">Weight: </li>
+                    <li class="pokemon-list">Abilities: </li>
+                </ol>
+            </div>
+        </ol>
+
+
+    </section>
+    <!-- Nosso JS -->
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
