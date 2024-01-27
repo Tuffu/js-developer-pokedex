@@ -4,14 +4,18 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-image: url(https://github.com/Tuffu/pkm-site/blob/master/pkm%20site/img/bgimg.png?raw=true);
+    
 }
 
-.content {
+.content{
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+}
+
+.content h1{
+    color: white;;
 }
 
 @media screen and (min-width: 992px) {

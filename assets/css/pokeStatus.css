@@ -5,7 +5,7 @@
 
 .pokemonOrder {
     padding: 0;
-    margin: 0;
+    margin: 3rem 0 0 0;
     border: 0;
     width: auto;
     height: 100%;
@@ -15,10 +15,10 @@
 }
 
 .pokemonList {
-    background-color: #77c850;
     padding-left: 0;
     height: 20rem;
     list-style: none;
+    border-radius: 2rem 2rem 0 0;
 }
 
 
@@ -45,14 +45,27 @@
     margin: 0;
 }
 
-.pokemonTypeLi {
-    list-style: none;
-    display: inline-block;
-    background-color: #77c850;
-    padding: 0.5em;
-    filter: brightness(1.1);
-    margin: 0.20rem;
+.detail {
+    width: 8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.types {
+
+    width: 8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.type {
+    padding: 0.25rem .5rem;
+    margin: 0.25rem 0 0;
+    font-size: .900rem;
     border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    list-style: none;
 }
 
 .detalhes img {
@@ -62,7 +75,7 @@
     align-content: space-around;
 }
 
-.pokemon-nav{
+.pokemon-nav {
     background-color: #f6f8fc;
     border-radius: 2rem;
     margin: -25px 0 0 0;
@@ -70,18 +83,20 @@
     list-style: none;
     padding: 2rem 0px 0rem 2rem;
     display: flex;
-    
+
 }
 
-.pokemon-nav-li{
+.pokemon-nav-li {
     padding: 10px 33px 0 0;
+    font-size: 15px;
 
 }
 
 .pokemon-info {
     margin-top: -35px;
-    padding: 0 0 400px 0;
-
+    padding: 0 0 3rem 0;
+    background-color: #f6f8fc;
+    border-radius: 0 0 2rem 2rem;
 }
 
 .pokemon-info-list {
@@ -92,7 +107,6 @@
 
 }
 
-.pokemon-list{
+.pokemon-list {
     padding: 20px 0 0 0;
 }
-
